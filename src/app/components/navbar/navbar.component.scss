@@ -1,0 +1,50 @@
+$secondary-color: #262b3f;
+$primary-color: #ff7300;
+
+ant-menu-light .ant-menu-item-active,
+ant-menu-light .ant-menu-item:hover,
+ant-menu-light .ant-menu-submenu-active,
+ant-menu-light .ant-menu-submenu-title:hover,
+ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open {
+    color: #ffffff !important;
+}
+
+[nz-button] {
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+
+.mobile-sidebar{
+    transition: fixed;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $primary-color;
+    padding: 15px;
+}
+
+img.logo {
+    width: 100px;
+}
+
+@media only screen and (min-width: 992px) {
+    .main-header {
+        .header-logo{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-header {
+        .trigger{
+            display: none;
+        }
+        .header-logo{
+            width: 100px;
+        }
+    }
+}
