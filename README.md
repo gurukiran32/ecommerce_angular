@@ -1,27 +1,57 @@
-# EcommerceWebsite
+# E-Commerce Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+This is a full-stack E-Commerce website developed for frontend purposes using Angular for the client-side and Spring Boot for the backend.
 
-## Development server
+## Prerequisites
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
++ Node.js and npm installed on your machine to run the frontend.
++ Java and Maven installed to run the Spring Boot backend.
 
-## Code scaffolding
+## Running the Application
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Start the Spring Boot Backend:
 
-## Build
++ Clone the backend repository from Backend Repository.
++ Navigate to the backend directory.
++ Run the Spring Boot application using Maven:
+```mvn spring-boot:run```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Start the Angular Frontend:
 
-## Running unit tests
++ Clone this repository.
++ Navigate to the frontend directory.
++ Install dependencies using npm:
+```npm install```
++ Start the Angular development server:
+```npm start```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Access the Application:
 
-## Running end-to-end tests
+Open your web browser and go to http://localhost:4200 to access the E-Commerce website.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Features
 
-## Further help
++ User authentication and authorization.
++ Browse products and add them to the cart. (Needs to be done)
++ Checkout process with secure payment methods. (Needs to be done)
++ User profile management.
++ Admin dashboard for managing products and orders.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Technologies Used
+
+### Frontend
+
++ Angular: A powerful frontend framework for building web applications.
++ Angular Material: UI component library for Angular.
++ TypeScript: Typed superset of JavaScript that compiles to plain JavaScript.
+
+### Backend
+
++ Spring Boot: Java-based framework for building robust and scalable backend applications.
++ Spring Security: Provides authentication and authorization support.
++ Spring Data JPA: Simplifies data access layer implementation.
++ MySQL Database: Used for storing application data.
+
+## Contributings
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
